@@ -67,6 +67,10 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto; }
 
+.img-circle {
+  width: 25%;
+}
+
 section {
   padding: 100px 0; }
   section h2 {
