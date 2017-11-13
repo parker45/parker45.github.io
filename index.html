@@ -8,35 +8,35 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Parker Irving</title>
+    <title>Parker Irving Resume Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
     <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Parker Irving</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#work">Work Experience</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -46,91 +46,101 @@
       </div>
     </nav>
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <img class="img-circle" src="img/profile.png" alt="" style="
-        width: 25%;">
-        <div class="intro-text">
-          <span class="name">Parker Irving</span>
-          <hr class="star-light">
-          <span class="skills">Web Developer - Software Engineer - Hokie</span>
-        </div>
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Hello! My Name is Parker Irving</h1>
+        <!--<p class="lead">I am a web developer and full stack software engineer studying Computer Science at Virginia Tech</p>-->
       </div>
     </header>
 
-   
-
-    <!-- About Section -->
-    <section class="success" id="about">
+    <section id="about">
       <div class="container">
-        <h2 class="text-center">About</h2>
-        <hr class="star-light">
         <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p>TODO add about me</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p>Professional/Research Interests</p>
+          <div class="col-lg-8 mx-auto">
+            <h2>About Me</h2>
+            <p class="lead">I am a Junior studying Computer Science at Virginia Tech. I have experience in Full Stack Web Development through previous internships. 
+              I love to learn about cutting edge technologies and seek out academic research to learn more about new technologies. 
+            I am most interested in the field of Human Computer Interaction and love to explore how users interact and use technologies in their lives.</p>
+            <ul>
+              <li>Languages: JAVA, C, C++, JavaScript(Jquery, React, Express), Python, HTML, CSS</li>
+              <li>Software: Node.js, GIT, AWS(EC2, Elastic Beanstalk), Selenium, MongoDB, MySQL databases</li>
+              <li>Platforms: MacOS, Windows, Linux(Ubuntu, CentOS, Vagrant), Docker</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <section id ="work" class = "bg-light">
+        <div class="container">
+          <div class = "row">
+            <div class = "col-lg-8 mx-auto">
+              <h2>Work Experience</h2>
+              <p class = "lead">Technology Development Intern (Software Engineer)</p>
+              <p>Optum Technology; Raleigh, NC (May 2017 - August 2017)</p>
+              <ul>
+                <li>Created a unified communication platform for healthcare professionals</li>
+                <li>Partnered with a team of interns, and worked in an agile environment</li>
+                <li>Gave presentations to senior management each sprint (2 weeks)</li>
+              </ul>
+              <p class="lead">Undergraduate Researcher</p>
+              <p>Virginia Tech Crowd Lab; Blacksburg, VA (August 2017 - Present)</p>
+              <ul>
+                <li>Worked on improvements for the GraphCrowd platform, and Flud graph layout game</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="services">
       <div class="container">
-        <h2 class="text-center">Contact Me</h2>
-        <hr class="star-primary">
-        <h3>Email: parker45@vt.edu</h3>
-        <h3></h3>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Projects</h2>
+            <p class="lead">OptumDoc</p>
+            <p>OptumDOC is a patent pending unified healthcare communication platform. Together with a team of interns at Optum, we built a fully functioning 
+              healthcare communication web application from scratch using Javascript(JQuery, Express, Node.JS), HTML, and CSS(Bootstrap). I also used the Natural
+            Language Toolkit to integrate medical-focused Natural Language Processing into the application. I worked on a REST API in order to faciliate collaboration
+          with other teams of interns. For the messaging, video, and voice calling functionality I used the Cisco Spark API. I worked on both front end (user facing) and 
+        back end development.</p>
+            <p class="lead">GraphCrowd</p>
+            <p>As an Undergraduate Researcher at Virginia Tech's Crowd Lab, I work on the <a href="http://crowd.cs.vt.edu/projects/">GraphCrowd platform</a>, a project that investigates how crowdsourced design can
+                be used to improve visualizations of biological graph data. I am also working on improvements to the graph layout game <a href="http://flud.graphspace.org/">Flud.</a>
+              For these projects I use a variety of different technologies including: Javascript, Python, Django, PostgreSQL, and Cytoscape.js</p>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact Me</h2>
+            <p class="lead">Add links to Github, Email, and other contact info</p>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col col-md-4">
-              <h3>Location</h3>
-              <p>326 Pheasant run court
-                <br>Blacksburg, VA 24060</p>
-            </div>
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              Copyright &copy; Your Website 2017
-            </div>
-          </div>
-        </div>
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Parker Irving 2017</p>
       </div>
+      <!-- /.container -->
     </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top d-lg-none">
-      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
-   
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
 
   </body>
 
